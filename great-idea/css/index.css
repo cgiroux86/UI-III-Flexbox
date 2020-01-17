@@ -136,14 +136,12 @@ body {
  margin: auto;
 }
 header {
-	border: 1px solid purple;
 	display: flex;
 	padding: 10px;
 	width: 90%;
 	margin: 0 auto;
 }
 header nav{
-	border:1px solid magenta;
 	display: flex;
 	width: 100%;
 	justify-content: space-evenly;
@@ -156,10 +154,8 @@ header nav{
 	height: 40vh;
 	width: 90%;
 	align-items: space-evenly;
-	border: 1px solid black;
 }
 .text {
-	border: 2px solid purple;
 	font-size: 40px;
 	font-style: italic;
 	text-transform: uppercase;
@@ -175,7 +171,6 @@ header nav{
 .main {
 	width: 90%;
 	margin: 0 auto;
-	border: 1px solid black;
 }
 .about {
 	width: 50%;
@@ -185,12 +180,10 @@ header nav{
 	width: 50%;
 }
 .mid-img {
-	border: 2px solid green;
 	width: 50%;
 	height: 200px;
 }
 .mid-container {
-	border: 2px solid yellow;
 	display: flex;
 	justify-content: center;
 	padding-top: 100px;
@@ -220,19 +213,15 @@ button {
 	width: 200px;
 }
 .holder {
-	border: 2px solid yellow;
 	display: flex;
 	width: 100%;
 	margin: 0 auto;
 	height: 100px;
 }
-.code {
-	border: 2px solid red;
-}
 .container2 {
-	border: 1px solid orange;
 	display: flex;
 	justify-content: space-between;
+	padding: 20px 0;
 }
 .address {
 	display: flex;
@@ -240,7 +229,6 @@ button {
 	height: 150px;
 	flex-direction: column;
 	margin: 0 auto;
-	border: 1px solid magenta;
 }
 .foot{
 	display: flex;
