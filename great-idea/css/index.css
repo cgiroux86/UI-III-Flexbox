@@ -137,7 +137,7 @@ body {
 }
 header {
 	display: flex;
-	width: 100%;
+	width: 90%;
 	flex-direction: row;
 	justify-content: space-between;
 	margin: 0 auto;
@@ -146,6 +146,7 @@ header nav{
 	display: flex;
 	width: 75%;
 	justify-content: space-between;
+	padding-top: 10px;;
 }
 
 #container {
