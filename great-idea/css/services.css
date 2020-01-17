@@ -129,12 +129,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 body {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
    
 }
 .header {
-    margin: 0 auto;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -142,7 +140,8 @@ body {
 .nav {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
 }
 a {
     padding: 10px;
