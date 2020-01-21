@@ -95,7 +95,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    width: 80%;
 }
 ol, ul {
 	list-style: none;
@@ -115,8 +115,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-	margin: 0 auto;
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -129,111 +128,119 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Your code starts here! */
 body {
- width: 90%;
- margin: auto;
+    width: 80%;
+    margin: 0 auto;
+   
 }
-header {
-	display: flex;
-	width: 90%;
-	flex-direction: row;
-	justify-content: space-between;
-	margin: 0 auto;
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-header nav{
-	display: flex;
-	width: 75%;
-	justify-content: space-between;
-	padding-top: 10px;;
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
+a {
+    padding: 10px;
+}
+.services-header-img {
+    width: 100%;
+    height: 200px;
+    margin-top: 0 auto;
+}
+.column1 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+}
+.column2 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
 
-#container {
-	display: flex;
-	margin: 0 auto;
-	height: 40vh;
-	width: 100%;
-	align-items: space-evenly;
 }
-.text {
-	font-size: 40px;
-	font-style: italic;
-	text-transform: uppercase;
-	font-weight: bold;
-	display: flex;
-	flex-direction: column;
-	height: auto;
-	width: 100%;
-	text-align: center;
-	padding-top: 130px;
-
+.column3 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
 }
-.main {
-	width: 90%;
-	margin: 0 auto;
+#main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
 }
-.about {
-	width: 50%;
-	
-}
-.features {
-	width: 50%;
-}
-.mid-img {
-	width: 50%;
-	height: 200px;
-}
-.mid-container {
-	display: flex;
-	justify-content: center;
-	padding-top: 100px;
-	flex-direction: row;
-	width: 100%;
-	height: 30vh;
-}
-.last-img {
-	height: 150px;
-	width: 100%;
-	margin: 0 auto;
-}
-.services {
-	width: 100%;
-	height: auto;
-}
-.product {
-	width: 25%;
-	margin-left: 100px;
-}
-.vision {
-	height: auto;
+.box {
+    border: 1px solid black;
+    background: lightgray;
+    width: 700px;
+    height: 200px;
+    margin: 20px 0;
+    
 }
 button {
-	padding-bottom: 10px;
-	height: 30px;
-	width: 200px;
+    margin: 20px 0;
 }
-.holder {
-	display: flex;
-	width: 100%;
-	margin: 0 auto;
-	height: 100px;
+#final {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: space-between;
+  
 }
-.container2 {
-	display: flex;
-	justify-content: space-between;
-	padding: 20px 0;
+.bottom {
+    display: flex;
+    width:800px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+   
 }
-.address {
-	display: flex;
-	width: 90%;
-	height: 150px;
-	flex-direction: column;
-	margin: 0 auto;
+.services-info-img {
+    width: 650px;
+    padding-top: 10px;
 }
-.foot{
-	display: flex;
-	width: 90%;
-	margin: 0 auto;
-	justify-content: center;
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding: 20px 0;
+}
+.box h2 {
+    padding: 20px;
+}
+.box p {
+    padding:0 20px;
+}
+button {
+   margin-left: 20px;
+}
+li {
+  list-style-type: disc;
+}
+ul {
+    margin-left: 20px;
+    line-height: 1.5em;
+}
+footer {
+    display:flex;
+    justify-content: center;
+    margin: 20px 0;
 }
